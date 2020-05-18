@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import NavBar from '../components/NavBar';
 
 
-export default class Home extends Component {
+export default class Favorites extends Component {
     render() {
         return (
             <div>
                 <NavBar />
-                Home Page
+                Your Favorites
             </div>
         )
     }
